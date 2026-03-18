@@ -2,4 +2,5 @@
 
 A simple restaurent web-site using HTML and CSS.
 <br>
-The web-site is live at : https://rifat-hasan-forhad.github.io/demo-restaurent-website/
+<br>
+<i>The web-site is live at</i> : https://rifat-hasan-forhad.github.io/demo-restaurent-website/
