@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+  scroll-behavior: smooth;
+}
+
+.nav-bar {
+  height: 100px;
+  background-color: darkolivegreen;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  height: 95px;
+  border: 3px solid white;
+  width: 95px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.logo {
+  text-align: center;
+  position: relative;
+  top: 1.5rem;
+}
+
+.nav-section {
+  display: flex;
+}
+
+.nav-content {
+  position: relative;
+  left: 500px;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-right: 1.5rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: 1rem;
+  font-weight: 500;
+}
+
+a:hover {
+  background-color: gray;
+  border-radius: 5px;
+}
+
+.banner {
+  background-image: url(images/hero-img.jpg);
+  background-size: cover;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content {
+  padding: 50px 10px;
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+
+.banner-content h1 {
+  background-color: #f0ee0b;
+  width: 60%;
+  margin: 1rem;
+  padding: 1.5rem;
+  font-family: "Handlee", cursive;
+  position: relative;
+  left: 200px;
+  border-radius: 5px;
+  font-size: 50px;
+}
+
+.banner-content p {
+  background-color: green;
+  padding: 1.2rem;
+  font-size: 20px;
+  color: white;
+  width: 30%;
+  position: relative;
+  left: 410px;
+}
+
+.btn {
+  background-color: green;
+  width: 140px;
+  padding: 1.3rem;
+  text-transform: uppercase;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
+
+#about-us {
+  padding: 1rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+#about-us h2 {
+  font-size: 32px;
+  font-weight: 800;
+  padding: 1rem;
+}
+
+#menu-section {
+  padding: 1rem;
+  display: flex;
+}
+
+.card-body {
+  text-align: center;
+  width: 25%;
+  padding: 0.6rem;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.card-body img {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+  display: block;
+}
+
+.card-desc {
+  background-color: dimgray;
+  color: white;
+}
+
+.card-name {
+  background-color: green;
+  padding: 10px;
+}
+
+.card-body:hover {
+  transform: scale(1.1);
+}
+
+#contact-section {
+  padding: 1rem;
+  background-color: #595b83;
+  display: flex;
+}
+
+.contact-details {
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  height: 300px;
+  width: 50%;
+  font-family: "Handlee", cursive;
+}
+
+.map {
+  height: 300px;
+  width: 50%;
+  margin: 1rem;
+}
+
+.map iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.contact-content {
+  position: relative;
+  top: 50px;
+}
+
+.footer {
+  padding: 1rem;
+  color: white;
+  background-color: #060930;
+  height: 100px;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer-text {
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.footer-icon {
+  text-align: center;
+  padding: 1rem;
+}
+
+/* font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Handlee", cursive; */
